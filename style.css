@@ -58,17 +58,29 @@ body{
   display: block;
   margin-left:auto;
   margin-right:auto;
-  height: auto;
+  /* height: auto; */
   text-align: center;
-  padding-top: 60px;
+  padding-top: 40px;
   /* border: 2px brown solid; */
+  padding-left: 20px;
   width: 85%;
   background-color: black;
   padding-bottom:12%;
   border-radius: 5%;
   margin-top: 40px;
-
-
+  font-size: x-large;
+  
+}
+#project-tile {
+  display: flex;
+  width:200px;
+  height:200px;
+  float: left;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border: 2px red solid;
+  border-radius: 5px;
 }
 
 ul{
@@ -89,7 +101,7 @@ li{
   border: 2px brown solid;
   max-width: 65%;
   padding:10%;
-  border-radius:25px;
+  border-radius:5px;
   
 }
 a{
