@@ -15,21 +15,23 @@ body{
 }
 #navbar{
   font-family: 'Courier New', Courier, monospace;
-  position: inherit;
+  /* position: inherit; */
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: fixed;
-  width: 100%;
+  width: 96%;
   justify-content:
    center;
    text-align: center;
   /* position: inline-flex; */
-  border: 2px brown solid;   /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); */
-  /* z-index: 10; */
+  border: 2px brown solid;  
+   /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);  */
+  z-index: 10;
   /* justify-content: center; */
   padding: 20px;
   background-color: lightblue;
+  border-radius:25px;
   
   
  
@@ -56,5 +58,15 @@ ul{
 li{
     display: inline;
     text-align: center;
-    margin: 10%;
+    margin: 7%;
+}
+#bio-info{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px brown solid;
+  max-width: 65%;
+  padding:10%;
+  border-radius:25px;
+  
 }
